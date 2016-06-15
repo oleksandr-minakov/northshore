@@ -1,0 +1,18 @@
+package: github.com/Mirantis/northshore
+import:
+- package: github.com/boltdb/bolt
+- package: github.com/docker/engine-api
+  subpackages:
+  - client
+  - types
+  - types/container
+- package: github.com/docker/go-connections
+  subpackages:
+  - nat
+- package: github.com/gorilla/mux
+- package: github.com/looplab/fsm
+- package: github.com/spf13/cobra
+- package: github.com/spf13/viper
+- package: golang.org/x/net
+  subpackages:
+  - context
