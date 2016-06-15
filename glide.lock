@@ -1,5 +1,5 @@
-hash: 612968622391feea78fdd81a4c48d49dd0bc58959a3df582b58edc867c1de1ab
-updated: 2016-06-15T18:18:48.605498007+03:00
+hash: a166b8e522e383b69f504e1aeb48df735780b0ec214baa03b6e6685fac87ce3f
+updated: 2016-06-15T19:59:38.739620636+03:00
 imports:
 - name: github.com/boltdb/bolt
   version: 05e441d7b3ded9164c5b912521504e7711dd0ba2
@@ -59,7 +59,7 @@ imports:
 - name: github.com/magiconair/properties
   version: c265cfa48dda6474e208715ca93e987829f572f8
 - name: github.com/Microsoft/go-winio
-  version: 4f1a71750d95a5a8a46c40a67ffbed8129c2f138
+  version: 69b46ecca8cb4981a637e02a680a9704ee0fa6a9
 - name: github.com/mitchellh/mapstructure
   version: d2dd0262208475919e1a362f675cfc0e7c10e905
 - name: github.com/opencontainers/runc
@@ -89,7 +89,6 @@ imports:
   version: 62bee037599929a6e9146f29d10dd5208c43507d
   subpackages:
   - unix
-  - windows
 - name: gopkg.in/yaml.v2
   version: a83829b6f1293c91addabc89d0571c246397bbf4
 devImports: []
