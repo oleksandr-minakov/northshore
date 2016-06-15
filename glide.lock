@@ -1,0 +1,95 @@
+hash: 612968622391feea78fdd81a4c48d49dd0bc58959a3df582b58edc867c1de1ab
+updated: 2016-06-15T18:18:48.605498007+03:00
+imports:
+- name: github.com/boltdb/bolt
+  version: 05e441d7b3ded9164c5b912521504e7711dd0ba2
+- name: github.com/BurntSushi/toml
+  version: f0aeabca5a127c4078abb8c8d64298b147264b55
+- name: github.com/docker/distribution
+  version: e4727588258350009f330f8599ec6358c7f84498
+  subpackages:
+  - reference
+  - digest
+- name: github.com/docker/engine-api
+  version: c1549dd0866a39a4c46ad5821574e1b717c42566
+  subpackages:
+  - client
+  - types
+  - types/container
+  - client/transport
+  - client/transport/cancellable
+  - types/filters
+  - types/network
+  - types/reference
+  - types/registry
+  - types/swarm
+  - types/time
+  - types/versions
+  - types/blkiodev
+  - types/strslice
+- name: github.com/docker/go-connections
+  version: 990a1a1a70b0da4c4cb70e117971a4f0babfbf1a
+  subpackages:
+  - nat
+  - sockets
+  - tlsconfig
+- name: github.com/docker/go-units
+  version: f2d77a61e3c169b43402a0a1e84f06daf29b8190
+- name: github.com/fsnotify/fsnotify
+  version: 30411dbcefb7a1da7e84f75530ad3abe4011b4f8
+- name: github.com/gorilla/context
+  version: aed02d124ae4a0e94fea4541c8effd05bf0c8296
+- name: github.com/gorilla/mux
+  version: 9fa818a44c2bf1396a17f9d5a3c0f6dd39d2ff8e
+- name: github.com/hashicorp/hcl
+  version: d7400db7143f8e869812e50a53acd6c8d92af3b8
+  subpackages:
+  - hcl/ast
+  - hcl/parser
+  - hcl/token
+  - json/parser
+  - hcl/scanner
+  - hcl/strconv
+  - json/scanner
+  - json/token
+- name: github.com/inconshreveable/mousetrap
+  version: 76626ae9c91c4f2a10f34cad8ce83ea42c93bb75
+- name: github.com/looplab/fsm
+  version: c77ccaafd443c852ceb0b4b0b5258235286e85a0
+- name: github.com/magiconair/properties
+  version: c265cfa48dda6474e208715ca93e987829f572f8
+- name: github.com/Microsoft/go-winio
+  version: 4f1a71750d95a5a8a46c40a67ffbed8129c2f138
+- name: github.com/mitchellh/mapstructure
+  version: d2dd0262208475919e1a362f675cfc0e7c10e905
+- name: github.com/opencontainers/runc
+  version: 42dfd606437b538ffde4f0640d433916bee928e3
+  subpackages:
+  - libcontainer/user
+- name: github.com/Sirupsen/logrus
+  version: 55eb11d21d2a31a3cc93838241d04800f52e823d
+  subpackages:
+  - formatters/logstash
+- name: github.com/spf13/cast
+  version: 27b586b42e29bec072fe7379259cc719e1289da6
+- name: github.com/spf13/cobra
+  version: bc81c21bd0d8be5ba2d6630a505d79d4467566e7
+- name: github.com/spf13/jwalterweatherman
+  version: 33c24e77fb80341fe7130ee7c594256ff08ccc46
+- name: github.com/spf13/pflag
+  version: 367864438f1b1a3c7db4da06a2f55b144e6784e0
+- name: github.com/spf13/viper
+  version: c1ccc378a054ea8d4e38d8c67f6938d4760b53dd
+- name: golang.org/x/net
+  version: 4876518f9e71663000c348837735820161a42df7
+  subpackages:
+  - context
+  - proxy
+- name: golang.org/x/sys
+  version: 62bee037599929a6e9146f29d10dd5208c43507d
+  subpackages:
+  - unix
+  - windows
+- name: gopkg.in/yaml.v2
+  version: a83829b6f1293c91addabc89d0571c246397bbf4
+devImports: []
